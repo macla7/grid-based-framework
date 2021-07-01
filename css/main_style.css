@@ -1,0 +1,406 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem 1rem;
+  max-width: 800px;
+}
+
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 15px;
+}
+
+.grid-16 {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-gap: 15px;
+}
+
+.col-1 {
+  grid-column: span 1;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.col-3 {
+  grid-column: span 3;
+}
+
+.col-4 {
+  grid-column: span 4;
+}
+
+.col-5 {
+  grid-column: span 5;
+}
+
+.col-6 {
+  grid-column: span 6;
+}
+
+.col-7 {
+  grid-column: span 7;
+}
+
+.col-8 {
+  grid-column: span 8;
+}
+
+.col-9 {
+  grid-column: span 9;
+}
+
+.col-10 {
+  grid-column: span 10;
+}
+
+.col-11 {
+  grid-column: span 11;
+}
+
+.col-12 {
+  grid-column: span 12;
+}
+
+.col-13 {
+  grid-column: span 13;
+}
+
+.col-14 {
+  grid-column: span 14;
+}
+
+.col-15 {
+  grid-column: span 15;
+}
+
+.col-16 {
+  grid-column: span 16;
+}
+
+@media (min-width: 480px) {
+  .col-s-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 480px) {
+  .col-s-2 {
+    grid-column: span 2;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-2 {
+    grid-column: span 2;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-2 {
+    grid-column: span 2;
+  }
+}
+@media (min-width: 480px) {
+  .col-s-3 {
+    grid-column: span 3;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-3 {
+    grid-column: span 3;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-3 {
+    grid-column: span 3;
+  }
+}
+@media (min-width: 480px) {
+  .col-s-4 {
+    grid-column: span 4;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-4 {
+    grid-column: span 4;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-4 {
+    grid-column: span 4;
+  }
+}
+@media (min-width: 480px) {
+  .col-s-5 {
+    grid-column: span 5;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-5 {
+    grid-column: span 5;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-5 {
+    grid-column: span 5;
+  }
+}
+@media (min-width: 480px) {
+  .col-s-6 {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-6 {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-6 {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 480px) {
+  .col-s-7 {
+    grid-column: span 7;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-7 {
+    grid-column: span 7;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-7 {
+    grid-column: span 7;
+  }
+}
+@media (min-width: 480px) {
+  .col-s-8 {
+    grid-column: span 8;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-8 {
+    grid-column: span 8;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-8 {
+    grid-column: span 8;
+  }
+}
+@media (min-width: 480px) {
+  .col-s-9 {
+    grid-column: span 9;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-9 {
+    grid-column: span 9;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-9 {
+    grid-column: span 9;
+  }
+}
+@media (min-width: 480px) {
+  .col-s-10 {
+    grid-column: span 10;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-10 {
+    grid-column: span 10;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-10 {
+    grid-column: span 10;
+  }
+}
+@media (min-width: 480px) {
+  .col-s-11 {
+    grid-column: span 11;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-11 {
+    grid-column: span 11;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-11 {
+    grid-column: span 11;
+  }
+}
+@media (min-width: 480px) {
+  .col-s-12 {
+    grid-column: span 12;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-12 {
+    grid-column: span 12;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-12 {
+    grid-column: span 12;
+  }
+}
+@media (min-width: 480px) {
+  .col-s-13 {
+    grid-column: span 13;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-13 {
+    grid-column: span 13;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-13 {
+    grid-column: span 13;
+  }
+}
+@media (min-width: 480px) {
+  .col-s-14 {
+    grid-column: span 14;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-14 {
+    grid-column: span 14;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-14 {
+    grid-column: span 14;
+  }
+}
+@media (min-width: 480px) {
+  .col-s-15 {
+    grid-column: span 15;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-15 {
+    grid-column: span 15;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-15 {
+    grid-column: span 15;
+  }
+}
+@media (min-width: 480px) {
+  .col-s-16 {
+    grid-column: span 16;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-16 {
+    grid-column: span 16;
+  }
+}
+@media (min-width: 1024px) {
+  .col-l-16 {
+    grid-column: span 16;
+  }
+}
+.container {
+  background-color: aquamarine;
+  text-align: center;
+}
+.container > * {
+  background-color: rgba(0, 0, 255, 0.3);
+  border-radius: 0.5rem;
+  padding: 5px;
+}
+
+#chicken-img {
+  max-width: 80%;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+/*# sourceMappingURL=main_style.css.map */

@@ -1,0 +1,27 @@
+
+@import 'framework';
+
+.container {
+  background-color: rgb(127, 255, 212);
+  text-align: center;
+
+  > * {
+    background-color: rgba(0, 0, 255, 0.3);
+    border-radius: 0.5rem;
+    padding: 5px;
+  }
+}
+
+#chicken-img {
+max-width: 80%;
+border-radius: 1rem;
+padding: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+
+
+
